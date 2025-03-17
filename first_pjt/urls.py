@@ -25,4 +25,11 @@ urlpatterns = [
     path('hello/', views.hello),
     path('lunch/', views.lunch),
     path('lotto/', views.lotto),
+    path('profile/<username>/', views.profile),
+    #variable routing : url 주소를 변수로 사용
+    path('cube/<int:number>/', views.cube),
+    #int:는 path converters로 str(기본값), int, slug, uuid, path 사용 가능 
+    path('articles/', views.articles),
 ]
+
+
