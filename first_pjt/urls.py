@@ -30,6 +30,8 @@ urlpatterns = [
     path('cube/<int:number>/', views.cube),
     #int:는 path converters로 str(기본값), int, slug, uuid, path 사용 가능 
     path('articles/', views.articles),
+    path('ping/', views.ping),
+    path('pong/', views.pong),
 ]
 
 

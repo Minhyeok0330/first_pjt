@@ -36,3 +36,4 @@ INSTALLED_APPS = [
     <APP NAMES>,
 ]
 ```
+# settings.py의 installed_apps에 app name을 직접 기록해서 등록
